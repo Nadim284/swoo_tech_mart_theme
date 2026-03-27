@@ -1,8 +1,8 @@
-<section class="max-w-[1240px] px-4 mx-auto">
+<section class="max-w-[1240px] px-4 mx-auto pt-4">
   
   {% assign collection = collections[section.settings.product_collection] %}
 
-  <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-12">
+  <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
 
     {% for product in collection.products limit: section.settings.products_to_show %}
 
