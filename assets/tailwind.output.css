@@ -6,8 +6,10 @@
     --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-red-400: oklch(70.4% 0.191 22.216);
     --color-red-500: oklch(63.7% 0.237 25.331);
     --color-green-200: oklch(92.5% 0.084 155.995);
+    --color-green-300: oklch(87.1% 0.15 154.449);
     --color-green-600: oklch(62.7% 0.194 149.214);
     --color-gray-50: oklch(98.5% 0.002 247.839);
     --color-gray-100: oklch(96.7% 0.003 264.542);
@@ -224,6 +226,9 @@
   .my-4 {
     margin-block: calc(var(--spacing) * 4);
   }
+  .my-6 {
+    margin-block: calc(var(--spacing) * 6);
+  }
   .mt-1 {
     margin-top: calc(var(--spacing) * 1);
   }
@@ -374,11 +379,17 @@
   .w-\[224px\] {
     width: 224px;
   }
+  .w-\[428px\] {
+    width: 428px;
+  }
   .w-\[1300px\] {
     width: 1300px;
   }
   .w-full {
     width: 100%;
+  }
+  .max-w-\[8px\] {
+    max-width: 8px;
   }
   .max-w-\[60\%\] {
     max-width: 60%;
@@ -398,6 +409,12 @@
   .max-w-\[1300px\] {
     max-width: 1300px;
   }
+  .max-w-\[4288px\] {
+    max-width: 4288px;
+  }
+  .flex-none {
+    flex: none;
+  }
   .flex-grow {
     flex-grow: 1;
   }
@@ -412,6 +429,9 @@
   }
   .resize {
     resize: both;
+  }
+  .snap-start {
+    scroll-snap-align: start;
   }
   .grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -439,6 +459,9 @@
   }
   .justify-end {
     justify-content: flex-end;
+  }
+  .gap-1 {
+    gap: calc(var(--spacing) * 1);
   }
   .gap-2 {
     gap: calc(var(--spacing) * 2);
@@ -535,8 +558,14 @@
   .bg-green-200 {
     background-color: var(--color-green-200);
   }
+  .bg-green-300 {
+    background-color: var(--color-green-300);
+  }
   .bg-green-600 {
     background-color: var(--color-green-600);
+  }
+  .bg-red-400 {
+    background-color: var(--color-red-400);
   }
   .bg-red-500 {
     background-color: var(--color-red-500);
@@ -576,6 +605,9 @@
   }
   .px-2 {
     padding-inline: calc(var(--spacing) * 2);
+  }
+  .px-3 {
+    padding-inline: calc(var(--spacing) * 3);
   }
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
