@@ -6,9 +6,9 @@
   <p class="py-2"> <hr class="border-t border-gray-200"></p>
 </div>
 
-{% for product in collection.products limit: section.settings.products_to_show %}
+
   {% render 'product-card', product: product %}  
-{% endfor %}
+
 
 {% schema %}
 {
@@ -18,7 +18,7 @@
       "type": "text",
       "id": "heading",
       "label": "Section Heading",
-      "default": "Top Categories"
+      "default": "Set Name Of Category"
     },
     {
       "type": "text",
@@ -73,9 +73,9 @@
       "id": "products_to_show",
       "label": "Number of products",
       "min": 2,
-      "max": 12,
+      "max": 5,
       "step": 1,
-      "default": 4
+      "default": 5
     }
   ],
 
