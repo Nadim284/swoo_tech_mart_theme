@@ -1,4 +1,4 @@
-<div class="flex flex-row px-3">
+<div class="flex flex-row px-3 bg-secondary">
   {% for block in section.blocks %}
     {% assign banner = block.settings.category_banner %}
     {% assign col1 = block.settings.collection_1 %}
@@ -7,7 +7,7 @@
     {% assign col4 = block.settings.collection_4 %}
 
     <!-- Slide -->
-    <div class="flex-none max-w-[428px] snap-start py-2" {{ block.shopify_attributes }}>
+    <div class="flex-none md:max-w-[295px] lg:max-w-[428px] snap-start py-2" {{ block.shopify_attributes }}>
       <!-- Header -->
       <div class="flex justify-between items-center py-4 px-4">
         <h2 class="text-lg font-semibold">{{ block.settings.title }}</h2>
@@ -17,7 +17,7 @@
       </div>
 
       <!-- Banner -->
-      <div class="px-4 h-[190px] flex items-center justify-center overflow-hidden rounded-lg">
+      <div class="px-4 max-h-[190px] flex items-center justify-center overflow-hidden rounded-lg">
         {% if banner != blank %}
           <img
             src="{{ banner | image_url: width: 800 }}"
@@ -33,7 +33,7 @@
       <div class="max-w-[428px] px-4 py-4"><hr class="my-4 border-gray-200"></div>
 
       <!-- 2x2 Collection Grid -->
-      <div class="px-4 grid grid-cols-2 grid-rows-2 gap-6 h-[410px]">
+      <div class="px-4 grid grid-cols-2 grid-rows-2 gap-2 max-h-[410px]">
         {% for i in (1..4) %}
           {% if i == 1 %}{% assign col = col1 %}{% endif %}
           {% if i == 2 %}{% assign col = col2 %}{% endif %}
@@ -67,7 +67,7 @@
 
 {% schema %}
 {
-  "name": "Product Collection",
+  "name": "Hori Product Collection",
   "settings": [],
 
   "max_blocks": 3,
@@ -114,7 +114,7 @@
 
   "presets": [
     {
-      "name": "Product Collection",
+      "name": "Horizontal Product Collection",
       "category": "Content"
     }
   ]
