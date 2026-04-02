@@ -140,17 +140,6 @@
         "products_to_show": 5
       }
     },
-    "new_brand_showcase_tUTUBA": {
-      "type": "new-brand-showcase",
-      "name": "New Brand Collection",
-      "settings": {
-        "heading": "Brand New For You",
-        "product_collection": "laptop",
-        "product_limit": 4,
-        "button_text": "Shop Now",
-        "default_description": "Premium quality product for your daily needs"
-      }
-    },
     "top_cellphones_tablets_HWCzE7": {
       "type": "top-cellphones-tablets",
       "blocks": {
@@ -310,7 +299,6 @@
     "featured_band_3X4X3n",
     "deals_of_the_day_FKcjkQ",
     "categorie_by_na_jPa64k",
-    "new_brand_showcase_tUTUBA",
     "top_cellphones_tablets_HWCzE7",
     "top_cellphones_tablets_g3hAEW",
     "slider_with_collection_fyALYa",
