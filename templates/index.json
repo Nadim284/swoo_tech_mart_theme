@@ -250,19 +250,43 @@
     "slider_with_collection_fyALYa": {
       "type": "slider-with-collection",
       "blocks": {
+        "collection_jjWUxA": {
+          "type": "collection",
+          "settings": {
+            "title": "Shop by Category",
+            "category_banner": "shopify://shop_images/div.banner.png",
+            "collection_1": "printer",
+            "collection_2": "speaker",
+            "collection_3": "",
+            "collection_4": "webcam"
+          }
+        },
+        "collection_R4cgNV": {
+          "type": "collection",
+          "settings": {
+            "title": "Shop by Category",
+            "category_banner": "shopify://shop_images/prod44.png_1.png",
+            "collection_1": "controller",
+            "collection_2": "gaming",
+            "collection_3": "keyboard",
+            "collection_4": "monitor"
+          }
+        },
         "collection_gg6Vbg": {
           "type": "collection",
           "settings": {
             "title": "Shop by Category",
-            "category_banner": "shopify://shop_images/prod19_png.png",
+            "category_banner": "shopify://shop_images/prod43_png.png",
             "collection_1": "camera",
-            "collection_2": "",
-            "collection_3": "",
+            "collection_2": "microphone",
+            "collection_3": "speaker",
             "collection_4": ""
           }
         }
       },
       "block_order": [
+        "collection_jjWUxA",
+        "collection_R4cgNV",
         "collection_gg6Vbg"
       ],
       "name": "Horizontal Product Collection",
