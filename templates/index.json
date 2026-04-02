@@ -43,9 +43,48 @@
         "main_hero_title_5": "OKODo hero 11+ black",
         "main_hero_price_5": "$120"
       }
+    },
+    "slider_with_collection_V6Mdw7": {
+      "type": "slider-with-collection",
+      "blocks": {
+        "collection_TWLFQm": {
+          "type": "collection",
+          "settings": {
+            "title": "Shop by Category",
+            "category_banner": "shopify://shop_images/slider7.png_1.png",
+            "collection_1": "",
+            "collection_2": "",
+            "collection_3": "",
+            "collection_4": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_TWLFQm"
+      ],
+      "name": "Horizontal Product Collection",
+      "settings": {}
+    },
+    "top_cellphones_tablets_HWCzE7": {
+      "type": "top-cellphones-tablets",
+      "name": "Category,Product Showcase",
+      "settings": {
+        "heading": "Set Name Of Category",
+        "view_all_text": "View All",
+        "view_all_link": "",
+        "banner_image": "shopify://shop_images/Main_Section_Link_ban2_png_43f0e96e-e90a-47fb-a3b9-3a48e547099c.png",
+        "banner_heading": "REDMI NOTE 12 PRO+ 5G",
+        "banner_subtext": "Rise to the challenge",
+        "banner_button_text": "SHOP NOW",
+        "banner_button_link": "",
+        "product_collection": "",
+        "products_to_show": 5
+      }
     }
   },
   "order": [
-    "new_hero_zY3j9X"
+    "new_hero_zY3j9X",
+    "slider_with_collection_V6Mdw7",
+    "top_cellphones_tablets_HWCzE7"
   ]
 }
