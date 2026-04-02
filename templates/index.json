@@ -44,43 +44,6 @@
         "main_hero_price_5": "$120"
       }
     },
-    "slider_with_collection_V6Mdw7": {
-      "type": "slider-with-collection",
-      "blocks": {
-        "collection_TWLFQm": {
-          "type": "collection",
-          "settings": {
-            "title": "Shop by Category",
-            "category_banner": "shopify://shop_images/slider7.png_1.png",
-            "collection_1": "",
-            "collection_2": "",
-            "collection_3": "",
-            "collection_4": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_TWLFQm"
-      ],
-      "name": "Horizontal Product Collection",
-      "settings": {}
-    },
-    "top_cellphones_tablets_HWCzE7": {
-      "type": "top-cellphones-tablets",
-      "name": "Category,Product Showcase",
-      "settings": {
-        "heading": "Set Name Of Category",
-        "view_all_text": "View All",
-        "view_all_link": "",
-        "banner_image": "shopify://shop_images/Main_Section_Link_ban2_png_43f0e96e-e90a-47fb-a3b9-3a48e547099c.png",
-        "banner_heading": "REDMI NOTE 12 PRO+ 5G",
-        "banner_subtext": "Rise to the challenge",
-        "banner_button_text": "SHOP NOW",
-        "banner_button_link": "",
-        "product_collection": "",
-        "products_to_show": 5
-      }
-    },
     "featured_band_3X4X3n": {
       "type": "featured-band",
       "blocks": {
@@ -164,6 +127,43 @@
         "sold_text": "26/75"
       }
     },
+    "slider_with_collection_V6Mdw7": {
+      "type": "slider-with-collection",
+      "blocks": {
+        "collection_TWLFQm": {
+          "type": "collection",
+          "settings": {
+            "title": "Shop by Category",
+            "category_banner": "shopify://shop_images/slider7.png_1.png",
+            "collection_1": "",
+            "collection_2": "",
+            "collection_3": "",
+            "collection_4": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_TWLFQm"
+      ],
+      "name": "Horizontal Product Collection",
+      "settings": {}
+    },
+    "top_cellphones_tablets_HWCzE7": {
+      "type": "top-cellphones-tablets",
+      "name": "Category,Product Showcase",
+      "settings": {
+        "heading": "Set Name Of Category",
+        "view_all_text": "View All",
+        "view_all_link": "",
+        "banner_image": "shopify://shop_images/Main_Section_Link_ban2_png_43f0e96e-e90a-47fb-a3b9-3a48e547099c.png",
+        "banner_heading": "REDMI NOTE 12 PRO+ 5G",
+        "banner_subtext": "Rise to the challenge",
+        "banner_button_text": "SHOP NOW",
+        "banner_button_link": "",
+        "product_collection": "",
+        "products_to_show": 5
+      }
+    },
     "categorie_by_na_jPa64k": {
       "type": "categorie-by-na",
       "name": "Tabbed Product Grid",
@@ -177,12 +177,12 @@
         "products_to_show": 5
       }
     },
-    "new_brand_showcase_CfzbGL": {
+    "new_brand_showcase_tUTUBA": {
       "type": "new-brand-showcase",
       "name": "New Brand Collection",
       "settings": {
         "heading": "Brand New For You",
-        "product_collection": "camera",
+        "product_collection": "laptop",
         "product_limit": 4,
         "button_text": "Shop Now",
         "default_description": "Premium quality product for your daily needs"
@@ -271,12 +271,12 @@
   },
   "order": [
     "new_hero_zY3j9X",
-    "slider_with_collection_V6Mdw7",
-    "top_cellphones_tablets_HWCzE7",
     "featured_band_3X4X3n",
     "deals_of_the_day_FKcjkQ",
+    "slider_with_collection_V6Mdw7",
+    "top_cellphones_tablets_HWCzE7",
     "categorie_by_na_jPa64k",
-    "new_brand_showcase_CfzbGL",
+    "new_brand_showcase_tUTUBA",
     "top_cellphones_tablets_g3hAEW",
     "slider_with_collection_fyALYa",
     "top_cellphones_tablets_VYACY8"
