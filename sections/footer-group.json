@@ -11,6 +11,43 @@
   "type": "footer",
   "name": "t:general.footer",
   "sections": {
+    "new_footer_Gipwzk": {
+      "type": "new-footer",
+      "blocks": {
+        "link_list_A4ikUL": {
+          "type": "link_list",
+          "settings": {
+            "heading": "TOP CATEGORIES",
+            "menu": "top-categories"
+          }
+        },
+        "link_list_eKtqyR": {
+          "type": "link_list",
+          "settings": {
+            "heading": "TOP CATEGORIES",
+            "menu": "footer"
+          }
+        }
+      },
+      "block_order": [
+        "link_list_A4ikUL",
+        "link_list_eKtqyR"
+      ],
+      "name": "Swoo Custom Footer",
+      "settings": {
+        "title": "Swoo - 1st NYC Tech Online Market",
+        "phone": "(025) 3686 25 16",
+        "address_1": "257 Thatcher Road St, Brooklyn, Manhattan,",
+        "address_2": "NY 10092",
+        "email": "contact@Swootechmart.com",
+        "copyright_name": "Shawonetc3",
+        "social_twitter_link": "#",
+        "social_facebook_link": "#",
+        "social_instagram_link": "#",
+        "social_youtube_link": "",
+        "social_pinterest_link": "#"
+      }
+    },
     "footer": {
       "type": "footer",
       "settings": {
@@ -20,6 +57,7 @@
     }
   },
   "order": [
+    "new_footer_Gipwzk",
     "footer"
   ]
 }

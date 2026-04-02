@@ -250,15 +250,15 @@
     "slider_with_collection_fyALYa": {
       "type": "slider-with-collection",
       "blocks": {
-        "collection_jjWUxA": {
+        "collection_gg6Vbg": {
           "type": "collection",
           "settings": {
             "title": "Shop by Category",
-            "category_banner": "shopify://shop_images/div.banner.png",
-            "collection_1": "printer",
-            "collection_2": "speaker",
-            "collection_3": "",
-            "collection_4": "webcam"
+            "category_banner": "shopify://shop_images/prod43_png.png",
+            "collection_1": "camera",
+            "collection_2": "microphone",
+            "collection_3": "speaker",
+            "collection_4": ""
           }
         },
         "collection_R4cgNV": {
@@ -272,39 +272,36 @@
             "collection_4": "monitor"
           }
         },
-        "collection_gg6Vbg": {
+        "collection_jjWUxA": {
           "type": "collection",
           "settings": {
             "title": "Shop by Category",
-            "category_banner": "shopify://shop_images/prod43_png.png",
-            "collection_1": "camera",
-            "collection_2": "microphone",
-            "collection_3": "speaker",
-            "collection_4": ""
+            "category_banner": "shopify://shop_images/div.banner.png",
+            "collection_1": "printer",
+            "collection_2": "speaker",
+            "collection_3": "",
+            "collection_4": "webcam"
           }
         }
       },
       "block_order": [
-        "collection_jjWUxA",
+        "collection_gg6Vbg",
         "collection_R4cgNV",
-        "collection_gg6Vbg"
+        "collection_jjWUxA"
       ],
       "name": "Horizontal Product Collection",
       "settings": {}
     },
-    "top_cellphones_tablets_VYACY8": {
-      "type": "top-cellphones-tablets",
-      "name": "Category,Product Showcase",
+    "card_app_J3CjtC": {
+      "type": "card_app",
+      "name": "Card Section",
       "settings": {
-        "heading": "Set Name Of Category",
-        "view_all_text": "View All",
-        "view_all_link": "",
-        "banner_heading": "REDMI NOTE 12 PRO+ 5G",
-        "banner_subtext": "Rise to the challenge",
-        "banner_button_text": "SHOP NOW",
-        "banner_button_link": "",
-        "product_collection": "",
-        "products_to_show": 5
+        "card_image": "shopify://shop_images/banner2.png_1_aa7d34b7-5f23-4c5e-8c91-5c8e746c9881.png",
+        "card_title": "10% Back",
+        "card_description": "Earn 10% Cash back on Swootech. Learn How",
+        "card_image_2": "shopify://shop_images/banner3.png_1.png",
+        "card_title_2": "Download our app",
+        "card_description_2": "Earn 10% Cash back on Swootech. Learn How"
       }
     }
   },
@@ -317,6 +314,6 @@
     "top_cellphones_tablets_HWCzE7",
     "top_cellphones_tablets_g3hAEW",
     "slider_with_collection_fyALYa",
-    "top_cellphones_tablets_VYACY8"
+    "card_app_J3CjtC"
   ]
 }
