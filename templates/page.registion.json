@@ -1,0 +1,137 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {}
+    },
+    "about_hero_section_VfCUHV": {
+      "type": "about_hero-section",
+      "name": "About Hero Section",
+      "settings": {
+        "image": "shopify://shop_images/Gemini_Generated_Image_obhy8hobhy8hobhy.png",
+        "title": "Best experience always wins",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+      }
+    },
+    "about_delivery_mgGne6": {
+      "type": "about-delivery",
+      "name": "About Delivery",
+      "settings": {
+        "image": "shopify://shop_images/about2_png.png",
+        "title": "We connect millions of buyers and sellers around the world, empowering people & creating economic opportunity for all.",
+        "description": "Within our markets, millions of people around the world connect, both online and offline, to make, sell and buy unique goods. We also offer a wide range of Seller Services and tools that help creative entrepreneurs start, manage & scale their businesses."
+      }
+    },
+    "about_mission_RCaj3B": {
+      "type": "about-mission",
+      "blocks": {
+        "timeline_item_Udx8GW": {
+          "type": "timeline_item",
+          "settings": {
+            "year": "1997",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+          }
+        },
+        "timeline_item_NbkELc": {
+          "type": "timeline_item",
+          "settings": {
+            "year": "1997",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+          }
+        },
+        "timeline_item_ieBzBM": {
+          "type": "timeline_item",
+          "settings": {
+            "year": "1997",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+          }
+        },
+        "timeline_item_tc3pTx": {
+          "type": "timeline_item",
+          "settings": {
+            "year": "1997",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+          }
+        },
+        "timeline_item_y8YgfJ": {
+          "type": "timeline_item",
+          "settings": {
+            "year": "1997",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+          }
+        },
+        "timeline_item_Bf3T6d": {
+          "type": "timeline_item",
+          "settings": {
+            "year": "1997",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+          }
+        },
+        "timeline_item_PNKL6c": {
+          "type": "timeline_item",
+          "settings": {
+            "year": "1997",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+          }
+        }
+      },
+      "block_order": [
+        "timeline_item_Udx8GW",
+        "timeline_item_NbkELc",
+        "timeline_item_ieBzBM",
+        "timeline_item_tc3pTx",
+        "timeline_item_y8YgfJ",
+        "timeline_item_Bf3T6d",
+        "timeline_item_PNKL6c"
+      ],
+      "name": "About Mission",
+      "settings": {
+        "image": "shopify://shop_images/about3_png.png"
+      }
+    },
+    "about_leadership_DgCX6e": {
+      "type": "about-leadership",
+      "blocks": {
+        "timeline_item_rtGekq": {
+          "type": "timeline_item",
+          "settings": {
+            "image": "shopify://shop_images/Link_mem2_png.png",
+            "name": "JON SON",
+            "position": "CEO"
+          }
+        },
+        "timeline_item_Kq3Rpi": {
+          "type": "timeline_item",
+          "settings": {
+            "image": "shopify://shop_images/div.img_2.png",
+            "name": "JAKSON",
+            "position": "COO"
+          }
+        }
+      },
+      "block_order": [
+        "timeline_item_rtGekq",
+        "timeline_item_Kq3Rpi"
+      ],
+      "name": "About Leadership",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "about_hero_section_VfCUHV",
+    "about_delivery_mgGne6",
+    "about_mission_RCaj3B",
+    "about_leadership_DgCX6e"
+  ]
+}
