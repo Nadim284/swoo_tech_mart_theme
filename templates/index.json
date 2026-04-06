@@ -30,15 +30,6 @@
             "link": ""
           }
         },
-        "promo_bottom_j3mtmf": {
-          "type": "promo_bottom",
-          "settings": {
-            "image": "shopify://shop_images/slider7.png_1.png",
-            "brand": "hg",
-            "title": "fg",
-            "price": "gdfh"
-          }
-        },
         "promo_top_t4LRdF": {
           "type": "promo_top",
           "settings": {
@@ -46,6 +37,15 @@
             "label": "gh",
             "title": "dfh",
             "btn": "fdh"
+          }
+        },
+        "promo_bottom_j3mtmf": {
+          "type": "promo_bottom",
+          "settings": {
+            "image": "shopify://shop_images/slider7.png_1.png",
+            "brand": "hg",
+            "title": "fg",
+            "price": "gdfh"
           }
         },
         "hero_N8da8r": {
@@ -68,8 +68,8 @@
       "block_order": [
         "bottom_card_aV9tke",
         "bottom_card_UzNYTh",
-        "promo_bottom_j3mtmf",
         "promo_top_t4LRdF",
+        "promo_bottom_j3mtmf",
         "hero_N8da8r",
         "category_wrcmzf"
       ],
