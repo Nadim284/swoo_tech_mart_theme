@@ -63,42 +63,43 @@
     </nav>
 
     <!-- Actions -->
-    <div class="flex items-center space-x-6">
+    <div class="flex items-center space-x-5">
       
-  <button class="p-3 bg-[#F0F2F5] rounded-full hover:bg-gray-200 transition-colors">
-    <svg class="w-6 h-6 text-slate-800" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-      <path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+      <!-- Wishlist -->
+      <button class="p-3 bg-gray-50 rounded-full hover:bg-gray-100">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+        </svg>
+      </button>
+
+      <!-- Account -->
+      <div class="flex items-center space-x-3 cursor-pointer group">
+  <div class="p-3 bg-[#F0F2F5] rounded-full group-hover:bg-gray-200 transition-colors">
+    <svg class="w-6 h-6 text-slate-800" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+      <path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
     </svg>
-  </button>
-
-  <div class="flex items-center space-x-3 cursor-pointer group">
-    <div class="p-3 bg-[#F0F2F5] rounded-full group-hover:bg-gray-200 transition-colors">
-      <svg class="w-6 h-6 text-slate-800" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
-        <path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
-      </svg>
-    </div>
-    <div class="hidden xl:block">
-      <p class="text-[11px] text-gray-400 font-bold uppercase leading-tight">Welcome</p>
-      <p class="text-[14px] font-black uppercase tracking-tight">Log In / Register</p>
-    </div>
   </div>
-
-  <div class="flex items-center space-x-3 cursor-pointer group">
-    <div class="relative p-3 bg-[#F0F2F5] rounded-full group-hover:bg-gray-200 transition-colors">
-      <svg class="w-6 h-6 text-slate-800" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
-        <path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
-      </svg>
-      <span class="absolute -bottom-1 -right-1 bg-[#5CB85C] text-white text-[10px] font-bold w-5 h-5 flex items-center justify-center rounded-full border-2 border-white">
-        5
-      </span>
-    </div>
-    <div class="hidden xl:block">
-      <p class="text-[11px] text-gray-400 font-bold uppercase leading-tight">Cart</p>
-      <p class="text-[14px] font-black tracking-tight">{{ cart.total_price | money }}</p>
-    </div>
+  <div class="hidden xl:flex items-center space-x-2">
+    <p class="text-[11px] text-gray-400 font-bold uppercase whitespace-nowrap">Welcome</p>
+    <p class="text-[14px] font-black uppercase tracking-tight whitespace-nowrap">Log In / Register</p>
   </div>
-
 </div>
+
+      <!-- Cart -->
+      <div class="flex items-center space-x-3">
+        <div class="relative p-3 bg-gray-50 rounded-full">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
+          </svg>
+          <span class="absolute top-0 right-0 bg-green-600 text-white text-[10px] font-bold px-1.5 py-0.5 rounded-full border-2 border-white">0</span>
+        </div>
+        <div class="hidden xl:block">
+          <p class="text-[10px] text-gray-400 font-bold uppercase">Cart</p>
+          <p class="text-sm font-black">{{ cart.total_price | money }}</p>
+        </div>
+      </div>
+
+    </div>
   </div>
 </header>
 
