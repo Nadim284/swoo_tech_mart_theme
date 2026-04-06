@@ -12,6 +12,24 @@
     "hero_GcwPAT": {
       "type": "hero",
       "blocks": {
+        "category_DXNf6t": {
+          "type": "category",
+          "settings": {
+            "title": "Laptops"
+          }
+        },
+        "category_T67wQ9": {
+          "type": "category",
+          "settings": {
+            "title": "PC & Computers"
+          }
+        },
+        "category_e4z4DW": {
+          "type": "category",
+          "settings": {
+            "title": "Cell Phones"
+          }
+        },
         "bottom_card_aV9tke": {
           "type": "bottom_card",
           "settings": {
@@ -61,11 +79,14 @@
         "category_wrcmzf": {
           "type": "category",
           "settings": {
-            "title": "Heloo"
+            "title": "Tablets"
           }
         }
       },
       "block_order": [
+        "category_DXNf6t",
+        "category_T67wQ9",
+        "category_e4z4DW",
         "bottom_card_aV9tke",
         "bottom_card_UzNYTh",
         "promo_top_t4LRdF",
