@@ -8,5 +8,26 @@
  * ------------------------------------------------------------
  */
 {
-  "current": {}
+  "current": {
+    "sections": {
+      "new-header": {
+        "type": "new-header",
+        "settings": {
+          "hotline_label": "Hotline 24/7",
+          "hotline_number": "(025) 3886 25 16",
+          "top_link_1_text": "Sell on Swoo",
+          "top_link_1_url": "",
+          "top_link_2_text": "Order Tracking",
+          "top_link_2_url": "",
+          "logo_image": "shopify://shop_images/logo.png_2.png",
+          "logo_text_main": "Swoo",
+          "logo_text_sub": "Tech Mart",
+          "brand_color": "#22c55e",
+          "main_menu": "main-menu",
+          "show_account_labels": true
+        }
+      }
+    },
+    "content_for_index": []
+  }
 }
