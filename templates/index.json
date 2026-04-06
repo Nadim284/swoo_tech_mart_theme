@@ -34,18 +34,18 @@
           "type": "promo_bottom",
           "settings": {
             "image": "shopify://shop_images/slider7.png_1.png",
-            "brand": "",
-            "title": "",
-            "price": ""
+            "brand": "hg",
+            "title": "fg",
+            "price": "gdfh"
           }
         },
         "promo_top_t4LRdF": {
           "type": "promo_top",
           "settings": {
             "image": "shopify://shop_images/div.img_3.png",
-            "label": "",
-            "title": "",
-            "btn": ""
+            "label": "gh",
+            "title": "dfh",
+            "btn": "fdh"
           }
         },
         "hero_N8da8r": {
