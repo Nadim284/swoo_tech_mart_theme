@@ -97,6 +97,49 @@
       "name": "Hero Electronics Final",
       "settings": {}
     },
+    "new_hero_J9w7Kz": {
+      "type": "newHero",
+      "blocks": {
+        "catelory_LRGjkp": {
+          "type": "Catelory",
+          "settings": {
+            "catelory_name": "CLOTHING",
+            "catelory_link": ""
+          }
+        },
+        "catelory_QmhqMV": {
+          "type": "Catelory",
+          "settings": {
+            "catelory_name": "CLOTHING",
+            "catelory_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "catelory_LRGjkp",
+        "catelory_QmhqMV"
+      ],
+      "name": "New Hero Section",
+      "settings": {
+        "hero_title": "SALE 40% OFF",
+        "hero_image": "shopify://shop_images/slider3_png_7c40146f-bb7f-42de-9f9b-a778093c40c3.png",
+        "main_hero_title": "Noise Cancelling Headphone",
+        "main_hero_description": "Boso Over-Ear Headphone Wifi, Voice Assistant, Low latency game mode",
+        "main_hero_link": "",
+        "hero_image_2": "shopify://shop_images/slider4.png_2.png",
+        "main_hero_title_2": "Sono Playgo 5 from $569",
+        "main_hero_link_2": "",
+        "hero_image_3": "shopify://shop_images/slider5.png_2.png",
+        "main_hero_title_3": "Logitek Bluetooth Keyboard",
+        "main_hero_link_3": "",
+        "hero_image_4": "shopify://shop_images/div.img_3.png",
+        "main_hero_title_4": "Sport Water Resistance Watch",
+        "main_hero_link_4": "",
+        "hero_image_5": "shopify://shop_images/slider7.png_1.png",
+        "main_hero_title_5": "OKODo hero 11+ black",
+        "main_hero_price_5": "$120"
+      }
+    },
     "new_hero_zY3j9X": {
       "type": "newHero",
       "blocks": {
@@ -396,6 +439,7 @@
   },
   "order": [
     "hero_GcwPAT",
+    "new_hero_J9w7Kz",
     "new_hero_zY3j9X",
     "featured_band_3X4X3n",
     "deals_of_the_day_FKcjkQ",
